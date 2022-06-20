@@ -1,0 +1,40 @@
+body{
+    font-family: Roboto;
+}
+.nav{
+    background-color: grey;
+    display: flex;
+    padding:auto;
+    size: 100%;
+    justify-content: flex-end;
+}
+.nav-title{
+    position: absolute;
+    left: 1.5%;
+    color: white;
+}
+.nav-links{
+   display: flex;
+   width: 600px;
+   justify-content: flex-end;
+}
+
+li{
+    margin: 2%;
+    text-align: center;
+    display:flex;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+a{
+   
+    text-decoration: none;
+    color: white;
+}
+button{
+    color:white;
+    background-color: darkcyan;
+    font-size: 20px;
+}
