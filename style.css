@@ -6,17 +6,17 @@ body{
     display: flex;
     padding:auto;
     size: 100%;
-    justify-content: flex-end;
-}
-.nav-title{
-    position: absolute;
-    left: 1.5%;
+    justify-content: space-between;
     color: white;
+}
+.nav-title{   
+    margin-left: 1%;
 }
 .nav-links{
    display: flex;
    width: 600px;
    justify-content: flex-end;
+   list-style-type: none;
 }
 
 li{
@@ -25,9 +25,7 @@ li{
     display:flex;
     align-items: center;
 }
-ul{
-    list-style-type: none;
-}
+
 a{
    
     text-decoration: none;
